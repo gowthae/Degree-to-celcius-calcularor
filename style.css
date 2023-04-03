@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding:0;
+    background:#1B98F5;
+}
+#container{
+    background-color:#03203C;
+    position: relative;
+    padding: 20px 20px 20px ;
+    height: 500px;
+    width: 400px;
+    margin: 200px auto;
+    border-radius: 3em;
+}
+#heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+#heading h1{
+    color: #e8f0e7;
+    text-align: center;
+}
+input{
+    border : 2px solid black;
+    border-radius: 5px;
+    height: 3em;
+    width: 250px;
+    margin-top: 30px;
+    padding-left: 10px;
+    margin-left: 65px;
+}
+button{
+    margin: 50px 130px 100px;
+    background-color: #58f468;
+    border-radius: 5px;
+    height: 4em;
+    width: 150px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    text-align: center;
+    
+}
+button:hover{
+    cursor:pointer;
+    background-color: #10d089;
+    align-content: center;
+}
+#CelciusValue{
+    color: #fff;
+    position: relative;
+    text-align: center;
+
+}
+
